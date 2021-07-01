@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    padding: 40px 0;
+}
+
+.box-header {
+    height: 80px;
+    background: #F79125
+}
+.box-footer .title{
+    text-transform: capitalize;
+}
+
+.title {
+    line-height: 80px;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.upm-full-text {
+
+}
+
+.upm-short-text {
+
+}
+
+.content {
+    max-width: 1170px;
+    margin: auto;
+    padding: 40px 80px;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+/*table*/
+.headding-box {
+
+}
+
+.heading-title {
+
+}
+
+.heading-bg {
+
+}
+
+.table-first-row-bg {
+
+}
+
+.table-even-row-bg {
+
+}
+
+.table-odd-row-bg {
+
+}
+
+.table-content-bold {
+
+}
+
+.table-content-small-text {
+
+}
+
+.table-content-text {
+
+}
+
+.table-star-big {
+
+}
+
+.bg-star-normal {
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+/*greetings*/
+.box-person{
+    padding-top: 40px;
+}
+.person-text{
+    color: #0B6C2E;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.upm-u{
+    color: #008035;
+    font-weight: bold;
+}
+.upm-p{
+    color: #fe7700;
+    font-weight: bold;
+}
+.upm-m{
+    color: #df0001;
+    font-weight: bold;
+}
+
+/*category rating*/
+.item-percent{
+    display: flex;
+}
+.cate-left{
+    flex: 4;
+    display: flex
+}
+.cat-text{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+.cat-text p{
+    color: #0B6C2E;
+    font-weight: bold;
+}
+.cat-star{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.cat-star img{
+    width: 80%;
+}
+
+.cat-right{
+    flex: 5;
+    display: flex;
+    align-items: center;
+}
+.box-cat-percent{
+    position: relative;
+    background: #df0001;
+    height: 100px;
+    width: 100%;
+}
+.cat-active{
+    background: #fe7700;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.cat-number{
+    position: absolute;
+    height: 100%;
+    line-height: 100px;
+    left: 0;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+.cat-total{
+    position: absolute;
+    right: -60px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0B6C2E;
+    height: 100%;
+    line-height: 100px;
+}
+/*5 STRATEGIC GOVERMANCE */
+
+.common-table, .tr-heading, .tr-heading th, .tr-heading, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+.common-table th {
+    text-align: center;
+}
+
+.tr-heading{
+    background: #385623;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tr-main{
+    background: #a8d08d;
+}
+
+.tr-sub:nth-child(even){
+    background: #e2efd9;
+}
+
+.tr-sub:nth-child(odd){
+    background: #fff2cc;
+}
+
+.last-page-picture{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*13 basic facts*/
+.total-table{
+    width: 60%;
+    margin: auto;
+}
+.total-table, .total-table tr, .total-table td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.none-column{
+    height: 50px;
+    background: #ffc000;
+}
+
+.total-header{
+    background: #ffd966;
+    font-weight: bold;
+}
+.total-content:nth-child(even){
+    background: #fff2cc;
+}
+.total-content:nth-child(odd){
+    background: #f2f2f2;
+}
+
+.box-chart{
+    text-align: center;
+}
