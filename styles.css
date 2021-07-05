@@ -123,9 +123,65 @@ body {
     font-weight: bold;
 }
 
+/*3 overall*/
+.box-ceritficate{
+    background-image: url('images/bg-certificate.jpg');
+    text-align: center;padding: 30px
+}
+.certificate-logo{
+    width: 25%;
+}
+.research-plus{
+    width: 50%;
+}
+.box-chieved{
+    position:relative;
+    height: 100px;
+    background:#df0001;
+    margin-top: 120px
+}
+.box-score{
+    position: absolute;
+    left: 0; top: 0;
+    bottom: 0;
+    width: 70%;
+    background:#fe7700;
+}
+.box-chieved-score{
+    position:absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px
+}
+.box-chieved-score p{
+    color: #fff;
+    font-weight: bold;
+}
+.box-max-score{
+    position:absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px
+}
+.box-max-score p {
+    color: #fff;
+    font-weight: bold;
+    text-align: right
+}
+.overall-bottom{
+    width: 100%;
+    margin-top: 30px
+}
+.cat-bottom{
+    width: 100%;
+    margin-top: 30px
+}
 /*category rating*/
 .item-percent{
     display: flex;
+    margin-top: 20px !important;
 }
 .cate-left{
     flex: 4;
