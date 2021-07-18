@@ -110,6 +110,34 @@ body {
     font-style: italic;
 }
 
+/*rating system*/
+.main-img{
+    width: 100%;
+}
+.content-rating{
+    position: relative;
+}
+.box-uni-name{
+    position: absolute;
+    padding-left: 40px;
+    left: 0;
+    top: 65%;
+}
+
+.uni-name{
+    font-size: 70px;
+    color: #c45911;
+}
+
+.uni-country{
+    font-size: 60px;
+    color: #c45911;
+}
+
+.rating-img{
+    width: 200px;
+}
+
 /*greetings*/
 .greetings{
     font-size: 30px;
@@ -413,4 +441,32 @@ body {
 
 .ul-content li{
     font-size: 30px;
+}
+
+.img-star-about{
+    width: 100px;
+}
+
+.about-table, .about-table tr, .about-table td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.about-table{
+    width: 80%;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.content-table{
+    font-size: 20px;
+    font-weight: normal;
+}
+.img-content{
+    text-align: center;
+}
+.img-content img{
+    width: 80%;
 }
