@@ -470,3 +470,14 @@ body {
 .img-content img{
     width: 80%;
 }
+
+.box-figure{
+    display: flex;
+}
+.box-text{
+    flex: 1;
+}
+
+.box-image{
+    flex: 1;
+}
