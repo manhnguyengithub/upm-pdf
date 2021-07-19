@@ -475,9 +475,45 @@ body {
     display: flex;
 }
 .box-text{
-    flex: 1;
+    flex: 2;
 }
 
 .box-image{
-    flex: 1;
+    flex: 3;
+}
+
+.item-rating{
+    display: flex;
+    margin-top: 10px;
+}
+
+.box-image{
+    padding: 20px;
+}
+
+.bar-des{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    color: #0B6C2E;
+    margin-bottom: 0;
+}
+
+.bar{
+    width: 60%;
+    height: 40px;
+}
+
+.item-bar{
+    height: 100%;
+    background:#f09456;
+    text-align: center;
+    line-height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
 }
